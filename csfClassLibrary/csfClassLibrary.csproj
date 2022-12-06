@@ -41,9 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Basics\Array.cs" />
+    <Compile Include="Basics\Assignment1.cs" />
+    <Compile Include="Basics\Assignment2_DataParse.cs" />
     <Compile Include="Basics\BuiltInTypes.cs" />
+    <Compile Include="Basics\CastAndConvert.cs" />
+    <Compile Include="Basics\Enum.cs" />
     <Compile Include="Basics\ifElse.cs" />
+    <Compile Include="Basics\Loops.cs" />
+    <Compile Include="Basics\Nullable.cs" />
     <Compile Include="Basics\Operators.cs" />
+    <Compile Include="Basics\Regexx.cs" />
+    <Compile Include="Basics\Switch.cs" />
+    <Compile Include="Basics\TryCatch.cs" />
     <Compile Include="Basics\TypesString.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

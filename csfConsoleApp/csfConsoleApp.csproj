@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\csfClassLibrary\csfClassLibrary.csproj">
+      <Project>{F5565F86-91C7-43C2-9CDB-688049242FA0}</Project>
+      <Name>csfClassLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
