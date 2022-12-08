@@ -51,11 +51,16 @@
     <Compile Include="Basics\Loops.cs" />
     <Compile Include="Basics\Nullable.cs" />
     <Compile Include="Basics\Operators.cs" />
+    <Compile Include="Basics\PolyClass.cs" />
     <Compile Include="Basics\Regexx.cs" />
     <Compile Include="Basics\Switch.cs" />
     <Compile Include="Basics\TryCatch.cs" />
     <Compile Include="Basics\TypesString.cs" />
+    <Compile Include="CollectionBasics\ExampleDict.cs" />
+    <Compile Include="CollectionBasics\ExampleList.cs" />
+    <Compile Include="CollectionBasics\ExampleYield.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
