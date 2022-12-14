@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\csfConsoleApp\packages\Newtonsoft.Json.13.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -56,11 +59,21 @@
     <Compile Include="Basics\Switch.cs" />
     <Compile Include="Basics\TryCatch.cs" />
     <Compile Include="Basics\TypesString.cs" />
+    <Compile Include="CollectionBasics\Assignment3_Phonebook.cs" />
     <Compile Include="CollectionBasics\ExampleDict.cs" />
     <Compile Include="CollectionBasics\ExampleList.cs" />
     <Compile Include="CollectionBasics\ExampleYield.cs" />
+    <Compile Include="FilesMenagment\JsonSerialization.cs" />
+    <Compile Include="FilesMenagment\Player.cs" />
+    <Compile Include="FilesMenagment\SomeDisposableClass.cs" />
+    <Compile Include="FilesMenagment\Statistic.cs" />
+    <Compile Include="FilesMenagment\TextFile.cs" />
+    <Compile Include="FilesMenagment\UsingEx.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TypesBasics\RefOut.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
