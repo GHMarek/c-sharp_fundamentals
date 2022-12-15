@@ -43,8 +43,8 @@ namespace csfConsoleApp
 
             //JsonSerialization x = new JsonSerialization();
             //x.exF();
-            UsingEx x = new UsingEx();
-            x.exF();
+            //UsingEx x = new UsingEx();
+            //x.exF();
 
             Console.ReadLine();
         }
