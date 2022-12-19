@@ -69,6 +69,10 @@
     <Compile Include="FilesMenagment\Statistic.cs" />
     <Compile Include="FilesMenagment\TextFile.cs" />
     <Compile Include="FilesMenagment\UsingEx.cs" />
+    <Compile Include="GenericsBasics\GenericsExample.cs" />
+    <Compile Include="GenericsBasics\PaginatedResults.cs" />
+    <Compile Include="GenericsBasics\Repository.cs" />
+    <Compile Include="GenericsBasics\Utils.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TypesBasics\RefOut.cs" />
   </ItemGroup>
